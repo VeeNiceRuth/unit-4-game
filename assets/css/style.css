@@ -1,0 +1,41 @@
+
+body {
+    background: #7cb342;
+}
+.container {
+    font-family:  'Bungee Hairline', cursive;
+    text-align: center;
+}
+
+#heading {
+    background: #ffb300;
+    color: white;
+    font-family: 'Bungee Outline', cursive;
+  
+}
+
+#rules {
+    background: bisque;
+    color: teal;
+    font-size: 28px;
+}
+
+#number {
+    background:#ffff6e;
+    font-size: 38px;
+}
+
+#winsLosses {
+    background: #99aa00;
+    font-size: 38px;
+    
+}
+
+#crystals {
+    background: white;
+}
+
+#score {
+    background:#bef67a;
+    font-size: 48px;
+}

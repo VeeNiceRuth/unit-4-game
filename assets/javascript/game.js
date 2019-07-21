@@ -1,5 +1,5 @@
 //Displays the random number targetNumber and its a global variable
-var rdmNumber = document.getElementById("number").innerHTML = Math.floor((Math.random() * 121) + 19); 
+var rdmNumber = document.getElementById("number").innerHTML = Math.floor((Math.random() * 100) + 19); 
 var score = 0;
 var winCounter = 0;
 var loseCounter = 0;
@@ -16,8 +16,6 @@ $(".pink").on("click", function() {
     document.getElementById("score").innerHTML = score;
     console.log(score);
     
-
-    console.log(typeof(crystalNumber));
 
  if (score === rdmNumber) {
      console.log("win!")

@@ -27,7 +27,7 @@ body {
 
 #winsLosses {
     background: #99aa00;
-    font-size: 38px;
+    font-size: 25px;
     
 }
 
@@ -39,3 +39,7 @@ body {
     background:#bef67a;
     font-size: 48px;
 }
+p {
+    font-size: 20px;
+}
+

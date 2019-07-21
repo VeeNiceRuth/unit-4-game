@@ -6,8 +6,9 @@ var loseCounter = 0;
 
 
 function startGame() {
-    rdmNumber;
-    var crystalNumber = Math.floor((Math.random() * 12)+ 1);  
+    rdmNumber= document.getElementById("number").innerHTML = Math.floor((Math.random() * 100) + 19);
+    var crystalNumber = Math.floor((Math.random() * 12)+ 1); 
+     
 $("#number").text(rdmNumber);
 
 
